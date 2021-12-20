@@ -3,8 +3,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: whitesmoke;
-  color: #17421d;
+  background-color: rgb(15, 7, 7);
+  color: #09140b;
 }
 .container {
   width: 1080px;
@@ -12,7 +12,7 @@ body {
   margin-right: auto;
   border-width: 1px 1px 1px 1px;
   border-style: solid;
-  box-shadow: 15px 15px 8px gray;
+  box-shadow: 15px 15px 8px rgb(10, 8, 8);
 }
 
 .banner {
@@ -20,12 +20,13 @@ body {
   width: 100%;
   height: 250px;
   text-align: center;
-  font-size: 60px;
-  background-image: url("/static/img/banner1.jpg");
-  background-size: 100% 100%;
+  font-size: 50px;
+  background-image: url("/static/img/drag.jpeg");
+  font-family: 'Eczar', serif;
+  background-size: 97% 97%;
   margin: 0px 0px 0px 0px;
   padding-top: 150px;
-  color: #16d1ae;
+  color: white ;
 }
 
 .menu {
@@ -33,7 +34,7 @@ body {
   width: 100%;
   height: 50px;
   font-size: larger;
-  background-color: #5bb045;
+  background-color: rgb(14, 9, 9);
   text-align: center;
   padding-top: 15px;
   margin: 0px 0px 0px 0px;
@@ -49,7 +50,7 @@ body {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
-  color: #16d1ae;
+  color: #e0e6e4;
 }
 
 .menuitem a {
@@ -60,7 +61,7 @@ body {
 .content {
   display: block;
   width: 100%;
-  background-color: #cffffd;
+  background-color: black;
   min-height: 500px;
   margin: 0px 0px 0px 0px;
   border-width: 1px;
@@ -73,6 +74,7 @@ body {
 }
 .homecontent h1 {
   text-align: left;
+  color: #e0e6e4;
 }
 .homecontent img {
   float: right;
@@ -83,11 +85,15 @@ body {
 
 .contenttext {
   text-align: justify;
+  color: #e0e6e4;
+  font-family: 'Roboto Slab', serif;
+  font-size: x-large;
 }
 
 .productcontent {
   min-height: 500px;
   margin: 10px 10px 10px 10px;
+  color: #e0e6e4;
 }
 
 .productcontent h1 {
@@ -120,18 +126,23 @@ body {
 
 .productitem .itemname {
   display: block;
+  color: #e0e6e4;
 }
 .productitem .itemprice {
   display: block;
+  color: #e0e6e4;
 }
 
 .footer {
   display: block;
   width: 100%;
   height: 40px;
-  background-color: #5bb045;
+  background-color: black;
   text-align: center;
   padding-top: 10px;
   margin: 0px 0px 0px 0px;
-  color: #9c1018;
+  color: #faf2f2;
+}
+.par {
+  font-size: 90%;
 }
