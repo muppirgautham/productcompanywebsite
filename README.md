@@ -36,6 +36,7 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ### home page:
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -190,7 +191,9 @@ Publish the website in the given URL.
     </div>
   </body>
 </html>
+````
 ### people page :
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -266,7 +269,9 @@ Publish the website in the given URL.
     </div>
   </body>
 </html>
+```
 ### contact us :
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -306,7 +311,9 @@ Publish the website in the given URL.
     </div>
   </body>
 </html>
+```
 ### layout css:
+```
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
@@ -455,7 +462,7 @@ body {
 .par {
   font-size: 90%;
 }
-
+```
 ## OUTPUT:
 
 ### Home Page:
